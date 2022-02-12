@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-02-11 21:19+0100\n"
+"PO-Revision-Date: 2022-02-11 21:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/gutenberg-sidebar/sidebar-react/"
+"node_modules\n"
+"X-Poedit-SearchPathExcluded-1: admin/gutenberg-block/node_modules\n"
+
+#: admin/class-gutenberg/class_register_teams_gutenberg_patterns.php:73
+#: admin/class-gutenberg/class_register_teams_gutenberg_patterns.php:89
+msgid "Member Template one"
+msgstr "Member Template one"
+
+#: admin/class-gutenberg/class_register_teams_gutenberg_patterns.php:115
+msgid "Team Members Patterns"
+msgstr "Team Members Patterns"
+
+#: admin/gutenberg-block/src/components/team_members_select.js:56
+msgid "Category"
+msgstr "Kategorie"
+
+#: admin/gutenberg-block/src/components/team_members_select.js:56
+#: admin/gutenberg-block/src/components/team_members_select.js:60
+#: admin/gutenberg-block/src/components/team_members_select.js:70
+#: admin/gutenberg-block/src/components/team_members_select.js:74
+msgid "select"
+msgstr "auswählen"
+
+#: admin/gutenberg-block/src/components/team_members_select.js:70
+msgid "Template"
+msgstr "Vorlage"
+
+#: admin/gutenberg-block/src/index.js:23 admin/gutenberg-block/src/index.js:38
+#: admin/gutenberg-block/src/index.js:68
+#: includes/class-hupa-teams-activator.php:51
+msgid "Team Members"
+msgstr "Team Members"
+
+#: admin/gutenberg-block/src/index.js:37
+msgid " Team Members BY Jens Wiecker"
+msgstr " Team Members BY Jens Wiecker"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4249
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4251
+#: admin/gutenberg-sidebar/sidebar-react/src/components/sidebar.js:30
+#: admin/gutenberg-sidebar/sidebar-react/src/components/sidebar.js:34
+msgid "Team Members Optionen"
+msgstr "Teammitglied Optionen"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4255
+#: admin/gutenberg-sidebar/sidebar-react/src/components/sidebar.js:39
+msgid "Team Member settings"
+msgstr "Einstellungen für Teammitglieder"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4260
+#: admin/gutenberg-sidebar/sidebar-react/src/components/sidebar.js:47
+msgid "Team Member Cover Images"
+msgstr "Teammitglied Coverbild"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4265
+#: admin/gutenberg-sidebar/sidebar-react/src/components/sidebar.js:56
+msgid "Team Member options"
+msgstr "Optionen für Teammitglieder"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4354
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4515
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-cover-image.js:50
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-detail-image.js:51
+msgid "Choose an image"
+msgstr "Bild auswählen"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4381
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4542
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-cover-image.js:79
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-detail-image.js:79
+msgid "Replace image"
+msgstr "Bild ersetzen"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4387
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4548
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-cover-image.js:87
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-detail-image.js:87
+msgid "Remove image"
+msgstr "Bild löschen"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4642
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-optionen.js:23
+msgid "Scroll to member"
+msgstr "Zum Mitglied scrollen"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4666
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-optionen.js:46
+msgid "Scroll Pixel Offset"
+msgstr "Scroll Pixel Offset"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4752
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-settings.js:19
+msgid "Team member name"
+msgstr "Teammitglied Name"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4776
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-settings.js:42
+msgid "Team member subtitle"
+msgstr "Teammitglied Untertitel"
+
+#: admin/gutenberg-sidebar/sidebar-react/build/index.js:4800
+#: admin/gutenberg-sidebar/sidebar-react/src/components/utils/sidebar-settings.js:65
+msgid "Member active"
+msgstr "Teammitglied aktiv"
+
+#: includes/class-hupa-teams-activator.php:52
+msgid "Team Members Posts"
+msgstr "Team Members Beiträge"
+
+#: includes/class-hupa-teams-activator.php:53
+msgid "Edit Team Members Post"
+msgstr "Beitrag von Team-Member bearbeiten"
+
+#: includes/class-hupa-teams-activator.php:54
+msgid "Team Members Posts navigation"
+msgstr "Team Members Beiträge Navigation"
+
+#: includes/class-hupa-teams-activator.php:55
+msgid "Add new post"
+msgstr "Neuen Beitrag schreiben"
+
+#: includes/class-hupa-teams-activator.php:56
+msgid "Team Members Posts Archives"
+msgstr "Team Members Beiträge Archiv"
+
+#: includes/class-hupa-teams-activator.php:87
+msgid "Team Members Categories"
+msgstr "Kategorien der Teammitglieder"
+
+#: includes/class-hupa-teams-activator.php:88
+msgid "Team Members Category"
+msgstr "Team Members Kategorie"
+
+#: includes/class-hupa-teams-activator.php:89
+msgid "Search Team Members Categories"
+msgstr "Suche Team Members Kategorien"
+
+#: includes/class-hupa-teams-activator.php:90
+msgid "All Team Members Categories"
+msgstr "Alle Team-Members Kategorien"
+
+#: includes/class-hupa-teams-activator.php:91
+msgid "Parent Team Members Category"
+msgstr "Mitglieder der Elternkategorie Team Members"
+
+#: includes/class-hupa-teams-activator.php:92
+msgid "Parent Team Members Category:"
+msgstr "Mitglieder der Elternkategorie Team Members:"
+
+#: includes/class-hupa-teams-activator.php:93
+msgid "Edit Team Members Category"
+msgstr "Kategorie Team Members bearbeiten"
+
+#: includes/class-hupa-teams-activator.php:94
+msgid "Update Team Members Category"
+msgstr "Team Members Kategorie aktualisieren"
+
+#: includes/class-hupa-teams-activator.php:95
+msgid "Add New Team Members Category"
+msgstr "Neue Team Members Kategorie hinzufügen"
+
+#: includes/class-hupa-teams-activator.php:96
+msgid "New Team Members Category"
+msgstr "Neue Kategorie Team Members"
+
+#: includes/class-hupa-teams-activator.php:97
+msgid "Members Categories"
+msgstr "Team Members Kategorien"
+
+#: includes/class-hupa-teams-activator.php:118
+msgid "Standard category for Team Members posts"
+msgstr "Standardkategorie für Beiträge von Team Members"
+
+#: includes/class-hupa-teams.php:275
+#, php-format
+msgid ""
+"This plugin has been disabled because it requires a PHP version greater than "
+"%s and a WordPress version greater than %s. Your PHP version can be updated "
+"by your hosting provider."
+msgstr ""
+"Dieses Plugin wurde deaktiviert, weil es eine PHP-Version größer als %s und "
+"eine WordPress-Version größer als %s benötigt. Ihre PHP-Version kann von "
+"Ihrem Hosting-Anbieter aktualisiert werden."
+
+#~ msgid "Team Member Detail Images"
+#~ msgstr "Teammitglied Detailbild"

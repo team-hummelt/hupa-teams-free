@@ -1,0 +1,188 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+$cardBg: #F4F2F1;
+$cardBgHover: #02305D;
+$blue: #02305D;
+$black: #010C17;
+$light: #fff;
+
+$transition-collapse:         height .65s ease;
+$transition-collapse-width:   width .65s ease;
+
+body .members-free-template-one {
+  color: $black;
+}
+
+.members-free-template-one {
+
+  .collapsing {
+    transition-property: height, visibility;
+    transition-duration: 1s!important;
+  }
+  img.template-one-cover-img {
+    max-height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .template-one-card {
+    position: relative;
+    border-radius: 0!important;
+    border: none!important;
+    margin: auto!important;
+    z-index: 1;
+  }
+
+  h5.template-one-cover-name {
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  small {
+    font-size: .8rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .template-one-free-card-body.card-body {
+    transition: all 200ms linear;
+    color: $black;
+    background-color: $cardBg;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    cursor: pointer;
+
+    h5.template-one-cover-name {
+      color: $black;
+
+    }
+
+    .template-one-cover-name {
+      text-transform: uppercase;
+      .small {
+        text-transform: none;
+      }
+    }
+
+    .card-one-detail-opener {
+      margin-left: auto;
+      width: 24px;
+      height: 24px;
+      border: 1px solid $blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: rotate(0deg);
+      transition: all 350ms linear;
+      margin-top: .25rem;
+
+      &:before {
+        content: '+';
+        font-style: normal;
+        font-weight: 100;
+        color: $blue;
+      }
+    }
+
+    &:hover {
+      background-color: $cardBgHover;
+
+      h5.template-one-cover-name {
+        color: $light;
+      }
+
+      .card-one-detail-opener {
+        border: 1px solid $light;
+        transform: rotate(45deg);
+
+        &:before {
+          color: $light;
+        }
+      }
+    }
+  }
+
+  .template-one-free-cover-box {
+    position: relative;
+    .bg-fill {
+      background-color: $cardBg;
+      height: 10rem;
+      position: absolute;
+      left: .5rem;
+      right: .5rem;
+      bottom: 5rem;
+      display: block;
+      z-index: -1;
+      transition: all 1350ms linear;
+    }
+    &.active {
+      .bg-fill {
+        bottom: -4rem;
+      }
+
+      .card-one-detail-opener {
+        transform: rotate(45deg);
+      }
+
+    }
+  }
+
+  .template-one-free-details {
+    background-color: $cardBg;
+    overflow: hidden;
+    position: relative;
+
+    .card-details {
+      .team-member-detail {
+        // flex-basis: unset!important;
+        flex-grow: 1 !important;
+      }
+
+      h2.card-headline {
+        font-weight: 600;
+        color: $blue;
+      }
+
+      h3.card-subtitle {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.4;
+        color: $black;
+      }
+
+      .section-details {
+        p {
+          line-height: 1.4;
+
+          strong {
+            font-weight: 600 !important;
+            color: $black;
+          }
+        }
+
+        ul {
+          list-style: square;
+
+          li::marker {
+            font-size: .85rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .wp-block-image img {
+      max-height: 350px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+}

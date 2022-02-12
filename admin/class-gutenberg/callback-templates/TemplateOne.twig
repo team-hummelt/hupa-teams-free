@@ -1,0 +1,32 @@
+<div id="collapseParent{{ data.parentRand }}" class="overflow-hidden">
+    <div class="members-free-template-one row g-3">
+    {% for d in data.data %}
+       {% set counter = ( counter | default(0) ) + 1 %}
+        <div class="coverFree{{ d.rand }} template-one-free-cover-box col-box {% if not d.show %} d-none {% endif %} col-xl-4 col-lg-6 col-12">
+            <div class="template-one-card  card border-0 bg-light">
+                {% if d.show %}
+                <img src="{{ d.img_url }}" class="card-img-top template-one-cover-img" title="{{ d.name }}"
+                     alt="{{ d.name }}">
+                {% endif %}
+                <div data-parent="#collapseParent{{ data.parentRand }}" data-id="{{ d.rand }}" class="template-one-free-card-body card-body">
+                    <h5 class="card-title template-one-cover-name">{{ d.name }}
+                        <small class="d-block small">
+                            {{ d.subName }}
+                        </small>
+                    </h5>
+                    <div class="card-one-detail-opener"></div>
+                </div>
+            </div>
+            <div class="bg-fill"></div>
+        </div>
+        <div id="teamDetails{{ d.rand }}" data-id="{{ d.rand }}" data-scroll="{{ d.scrollAktiv }}" data-scrollOffset="{{ d.scrollOffset }}"
+             class="template-one-free-details collapse">
+            {% autoescape false %}
+                {{ d.content }}
+            {% endautoescape %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+

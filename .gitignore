@@ -1,0 +1,7 @@
+.idea
+.github
+.vscode
+admin/gutenberg-sidebar/sidebar-react/node_modules
+admin/gutenberg-sidebar/sidebar-react/src
+admin/gutenberg-block/src
+admin/gutenberg-block/node_modules
