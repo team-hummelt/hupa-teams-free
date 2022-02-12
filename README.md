@@ -1,6 +1,11 @@
 # WP Team Members - Free Version
 hummelt und partner | Werbeagentur GmbH
 
+![release](https://img.shields.io/github/v/release/team-hummelt/hupa-teams-free)
+![Hupa Release](https://img.shields.io/github/release-date/team-hummelt/hupa-teams-free)
+![GitHub](https://img.shields.io/github/license/team-hummelt/hupa-teams-free)
+
+
 ### Google-Rezensionen API Free Version
 ***
 * Contributors: jwiecker
