@@ -68,7 +68,7 @@ class Register_Teams_Free_Gutenberg_Patterns
     {
         $tempDir = plugin_dir_path((__FILE__)) . 'gutenberg-block-patterns' . DIRECTORY_SEPARATOR;
         $patternOne = file_get_contents($tempDir . 'TemplateOne.html');
-        $patternOne = str_replace('###PLACEHOLDERIMAGE###', plugins_url(HUPA_TEAMS_FREE_BASENAME).'/admin/images/placeholder-voll.png', $patternOne);
+        $patternOne = str_replace('###PLACEHOLDERIMAGE###', plugin_dir_url(dirname(__FILE__)).'/images/placeholder-voll.png', $patternOne);
         register_block_pattern(
             'hupa/team-free-members-block-pattern',
             [
