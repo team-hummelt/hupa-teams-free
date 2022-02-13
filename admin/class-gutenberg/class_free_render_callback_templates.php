@@ -83,12 +83,14 @@ class Free_Render_Callback_Templates
     public static function render_core_team_free_members_callback(string $block_content, array $block): string
     {
         if ($block['blockName'] === 'hupa/team-free-members-block' && !is_admin() && !wp_is_json_request()) {
-            return str_replace('wp-block-columns', '', $block_content);;
+            return str_replace('wp-block-columns', '', $block_content);
         }
         return $block_content;
     }
 
     /**
+     * @param $attributes
+     * @return string|void
      */
     public function render_callback_free_template($attributes)
     {
@@ -103,6 +105,8 @@ class Free_Render_Callback_Templates
 
         $args = [
             'post_type' => 'team_free_members',
+            'orderby' => 'menu_order',
+            'order' => 'ASC',
             'tax_query' => [
                 [
                     'taxonomy' => 'team_free_members_category',
@@ -183,6 +187,7 @@ class Free_Render_Callback_Templates
             }
         }
 
+        $twigData->extraClass = $class;
         $twigData->data = $dataArr;
         $twigData->parentRand = $this->generateRandomId(5, 0, 2);
         try {

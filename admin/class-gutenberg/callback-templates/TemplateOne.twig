@@ -1,4 +1,4 @@
-<div id="collapseParent{{ data.parentRand }}" class="overflow-hidden">
+<div id="collapseParent{{ data.parentRand }}" class="overflow-hidden {{ data.extraClass }}">
     <div class="members-free-template-one row g-3">
     {% for d in data.data %}
        {% set counter = ( counter | default(0) ) + 1 %}
