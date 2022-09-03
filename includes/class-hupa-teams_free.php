@@ -425,9 +425,9 @@ class Hupa_Teams_Free {
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
 	 * @since     1.0.0
-	 * @return    Hupa_Teams_Loader    Orchestrates the hooks of the plugin.
+	 * @return    Hupa_Teams_Free_Loader    Orchestrates the hooks of the plugin.
 	 */
-	public function get_loader(): Hupa_Teams_Loader
+	public function get_loader(): Hupa_Teams_Free_Loader
     {
 		return $this->loader;
 	}
